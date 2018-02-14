@@ -12,5 +12,8 @@
     "deploy": "git subtree push --prefix dist/ origin gh-pages",
     "redeploy": "yarn buildGHPages && yarn deploy"
   },
-  "description": "Crawl through a dungeon and defeat the monsters that crawl alongside you."
+  "description": "Crawl through a dungeon and defeat the monsters that crawl alongside you.",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
 }
