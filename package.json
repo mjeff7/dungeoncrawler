@@ -14,6 +14,8 @@
   },
   "description": "Crawl through a dungeon and defeat the monsters that crawl alongside you.",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.0.0-beta.5.2"
   }
