@@ -1,0 +1,139 @@
+body {
+  background: black;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  text-shadow: 0px 0px 20px white;
+}
+
+div.gameView {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+div.gameStatus {
+  display: flex;
+  margin: 0 2em;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.playerStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 1em;
+  box-shadow: 1px 1px blue;
+  padding: 0.5em;
+}
+div.playerStat > .statTitle {
+  font-size: 150%;
+  font-weight: bold;
+  color: brown;
+  opacity: 0.7;
+}
+div.playerStat > .statValue {
+  font-size: 150%;
+  color: green;
+}
+
+div.squareWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 80vh;
+}
+div.squareWrapper > div.squareSpacer {
+  position: relative;
+  padding-bottom: 100%;
+}
+div.squareWrapper > * {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+div.dungeonView {
+  display: flex;
+  flex-direction: column;
+}
+
+div.dungeonLine {
+  flex: 1 1 0;
+  display: flex;
+}
+
+div.TILE {
+  flex: 1 1 0;
+}
+
+rect.BLACK {
+  fill: black;
+}
+
+rect.BRICK {
+  fill: grey;
+}
+
+rect.FLOOR {
+  fill: yellow;
+}
+
+rect.PLAYER {
+  fill: green;
+}
+
+rect.ITEMS {
+  fill: blue;
+}
+
+rect.BADDIES {
+  fill: red;
+}
+
+rect.FOOD {
+  fill: black;
+}
+
+div.BLACK {
+  background: black;
+}
+
+div.BRICK {
+  background: grey;
+}
+
+div.FLOOR {
+  background: yellow;
+}
+
+div.PLAYER {
+  background: green;
+}
+
+div.ITEMS {
+  background: blue;
+}
+
+div.BADDIES {
+  background: red;
+}
+
+div.FOOD {
+  background: black;
+}
+
+.status {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 9px;
+  color: white;
+}
